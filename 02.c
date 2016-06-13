@@ -1,6 +1,8 @@
 #include <stdio.h>
-int main (int argc,int *argv[])
+int main ()
 {
-printf("%s",argv[2]);
+  int a,b,c;
+  scanf("%d %d %d",&a,&b,&c);
+printf("%d",b);
 return 0;
 }
